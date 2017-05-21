@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<script type="text/javascript" src="main.js"></script>
+<head>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
 <body onload="onload()">
   <div id="container">
-    <div id="top">
+    <div id="topcontainer">
+      <div id="top">
+      </div>
     </div>
     <div id="bottom">
-      <input id="inputID" type="text" name="inputID" value="">
-      <input type="button" value="click" onclick="addTask()"/>
+      <textarea id="inputID" cols="40" rows="5"></textarea>
+      <input id="button" type="button" value="Add Task" onclick="addTask()"/>
     </div>
   </div>
 </body>
